@@ -22,5 +22,5 @@ var appendKitten = (name) => {
 
 var prependKitten = () => {
   var preAddKit = [name, ...kittens];
-  return newKit;
+  return preAddKit;
 }
