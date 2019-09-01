@@ -19,3 +19,11 @@ var appendKitten = (name) => {
   var newKit = [...kittens, name];
   return newKit;
 }
+
+var prependKitten = () => {
+  var preAddKit = [name, ...kittens];
+  return newKit;
+}
+
+
+
