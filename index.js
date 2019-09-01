@@ -30,7 +30,7 @@ var removeLastKitten = () => {
   return removeLast;
 }
 
-var removeFirstKitten => () {
+var removeFirstKitten = () => {
   var removeFirst = kittens.slice(0, 1);
   return removeFirst;
 }
