@@ -24,6 +24,3 @@ var prependKitten = () => {
   var preAddKit = [name, ...kittens];
   return newKit;
 }
-
-
-
