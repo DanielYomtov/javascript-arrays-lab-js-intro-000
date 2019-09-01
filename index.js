@@ -20,7 +20,7 @@ var appendKitten = (name) => {
   return newKit;
 }
 
-var prependKitten = () => {
+var prependKitten = (name) => {
   var preAddKit = [name, ...kittens];
   return preAddKit;
 }
