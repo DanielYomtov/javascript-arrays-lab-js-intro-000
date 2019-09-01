@@ -24,3 +24,8 @@ var prependKitten = (name) => {
   var preAddKit = [name, ...kittens];
   return preAddKit;
 }
+
+var removeLastKitten = () => {
+  var removeLast = kittens.slice(-1);
+  return removeLast;
+}
